@@ -1,0 +1,38 @@
+.userInfo{
+    color: #fdfdfd;
+    border-right: 1px solid #666;
+    padding: 20px;
+    text-align: center;
+}
+
+.userInfo img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.backButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+    border: none;
+    color: rgb(17, 153, 243);
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.backButton:hover{
+    opacity: .7;
+}
+
+@media(max-width: 550px){
+    .userInfo{
+        border: none;
+    }
+}

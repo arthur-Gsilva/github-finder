@@ -1,0 +1,36 @@
+.resItem{
+    background-color: #2E86C1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+    border-radius: 10px;
+    gap: 5px;
+}
+
+.resItem h5{
+    font-size: 1rem;
+}
+
+.resItem a{
+    text-decoration: none;
+    color: #222;
+}
+
+.resItem a:hover{
+    color: #444;
+}
+
+.starCount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+@media(max-width: 550px){
+    .resItem h5{
+        font-size: .9rem;
+    }
+}

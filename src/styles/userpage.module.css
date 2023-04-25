@@ -1,0 +1,20 @@
+.userPage{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+}
+
+.spinner{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media(max-width: 550px){
+    .userPage{
+        flex-direction: column;
+    }
+}
