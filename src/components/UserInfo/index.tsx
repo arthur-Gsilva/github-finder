@@ -4,10 +4,10 @@ import { AiOutlineArrowLeft } from 'react-icons/ai'
 import  { useRouter } from 'next/router'
 
 type Props = {
-    userData: userData[]
+    userData: any
 }
 
-export const UserInfo = ({ userData }: Props) => {
+export const UserInfo = ( {userData}: Props ) => {
     const router = useRouter()
 
     const backHome = () => {
@@ -21,6 +21,7 @@ export const UserInfo = ({ userData }: Props) => {
                 <AiOutlineArrowLeft />
                 Voltar
             </button>
+
 
             <img src={userData.avatar_url} alt="avatar do usuário"/>
             <h3>{userData.name}</h3>

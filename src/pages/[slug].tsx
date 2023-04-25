@@ -15,7 +15,6 @@ const UserPage = () => {
     const [userData, setUserData] = useState<userData[]>([])
     const [repositories, setRepositories] = useState<repositorie[]>([])
     const [isLoanding, setIsLoading] = useState<boolean>(false)
-    const [error, setError] = useState(false)
 
     const loadUser = async (username: string) => {
         setIsLoading(true)
