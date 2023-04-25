@@ -1,8 +1,7 @@
 import styles from '../styles/home.module.css'
 
 import Head from 'next/head'
-import { FormEvent, useEffect, useState } from 'react'
-import axios from 'axios'
+import { FormEvent, useState } from 'react'
 import { GoMarkGithub } from 'react-icons/go'
 import { useRouter } from 'next/router'
 
