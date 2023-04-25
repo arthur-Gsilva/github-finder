@@ -8,7 +8,7 @@ import { userData } from '@/types/userData'
 import { repositorie } from '@/types/repositorie'
 
 
-const userPage = () => {
+const UserPage = () => {
     const router = useRouter()
     const { slug } = router.query
 
@@ -48,4 +48,4 @@ const userPage = () => {
     )
 }
 
-export default userPage
+export default UserPage

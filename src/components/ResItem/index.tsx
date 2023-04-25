@@ -14,7 +14,7 @@ export const ResItem = ({ repositorie }: Props) => {
                 <AiFillStar />
                 <span>{repositorie.stargazers_count}</span>
             </div> 
-            <a href={repositorie.html_url} target='_blank'>Acesse aqui</a>
+            <a href={repositorie.html_url} target='_blank' rel='noreferrer'>Acesse aqui</a>
         </div>
     )
 }
